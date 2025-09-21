@@ -9,6 +9,8 @@ import { EnvManager } from 'managedenv';
 
 const app = new Elysia();
 
+// If using Docker, use port 3000 and map port 3000 from docker to whichever port you want to use on your host
+// e.g. 3001:3000
 const envs = new EnvManager()
     .add({
         name: "PORT",
