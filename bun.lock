@@ -5,7 +5,7 @@
       "name": "modrinth-shields",
       "dependencies": {
         "@elysiajs/cors": "1.4.0",
-        "@elysiajs/openapi": "1.4.9",
+        "@elysiajs/openapi": "1.4.10",
         "badge-maker": "5.0.2",
         "elysia": "1.4.7",
         "managedenv": "0.1.1",
@@ -24,7 +24,7 @@
 
     "@elysiajs/cors": ["@elysiajs/cors@1.4.0", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-pb0SCzBfFbFSYA/U40HHO7R+YrcXBJXOWgL20eSViK33ol1e20ru2/KUaZYo5IMUn63yaTJI/bQERuQ+77ND8g=="],
 
-    "@elysiajs/openapi": ["@elysiajs/openapi@1.4.9", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-Y6NYgVmH6OKJ2ion1n1lFvhQFoGCpay9qiJ36CAUvdTsz8RxDkbt9wgK5n4n1EuXHwMCf6m1zs5VNmxCNa8TNg=="],
+    "@elysiajs/openapi": ["@elysiajs/openapi@1.4.10", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-bEsETp/CGcs1CqH3zW6/CAI2g6d0K/g8wUuH7HwXQm0gtP18s9RnljJESuv4of3ePUoYQgy85t+dha+ABv+L/A=="],
 
     "@sinclair/typebox": ["@sinclair/typebox@0.34.41", "", {}, "sha512-6gS8pZzSXdyRHTIqoqSVknxolr1kzfy4/CeDnrzsVz8TTIWUbOBr6gnzOmTYJ3eXQNh4IYHIGi5aIL7sOZ2G/g=="],
 
