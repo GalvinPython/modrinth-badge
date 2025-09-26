@@ -11,9 +11,9 @@
     },
     "dependencies": {
         "@elysiajs/cors": "1.4.0",
-        "@elysiajs/openapi": "1.4.9",
+        "@elysiajs/openapi": "1.4.10",
         "badge-maker": "5.0.2",
-        "elysia": "1.4.6",
+        "elysia": "1.4.7",
         "managedenv": "0.1.1",
         "simple-icons": "15.16.0"
     },
