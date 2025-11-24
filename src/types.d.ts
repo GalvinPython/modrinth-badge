@@ -49,6 +49,43 @@ export interface ModrinthAPIResponse {
     monetization_status: string
 }
 
+export interface ModrinthAPIVersion {
+    game_versions: Array<string>
+    loaders: Array<string>
+    id: string
+    project_id: string
+    author_id: string
+    featured: boolean
+    name: string
+    version_number: string
+    changelog: string
+    changelog_url: any
+    date_published: string
+    downloads: number
+    version_type: string
+    status: string
+    requested_status: any
+    files: Array<{
+        hashes: {
+            sha1: string
+            sha512: string
+        }
+        url: string
+        filename: string
+        primary: boolean
+        size: number
+        file_type: any
+    }>
+    dependencies: Array<{
+        version_id: any
+        project_id: string
+        file_name: any
+        dependency_type: string
+    }>
+}
+
+export type ModrinthAPIVersionsResponse = Array<ModrinthAPIVersion>
+
 export interface MinecraftVersionsResponse {
     latest: {
         release: string
