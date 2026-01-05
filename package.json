@@ -15,7 +15,7 @@
         "badge-maker": "5.0.2",
         "elysia": "1.4.18",
         "managedenv": "0.1.1",
-        "simple-icons": "15.22.0"
+        "simple-icons": "16.4.0"
     },
     "scripts": {
         "dev": "bun --watch src/index.ts",
