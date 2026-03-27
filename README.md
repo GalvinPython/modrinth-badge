@@ -7,12 +7,12 @@ A custom sheilds.io badge maker for Modrinth projects
 To get the badge in your markdown file do
 
 ```md
-[![Supported versions](https://modrinth-shields.imgalvin.me/badge/<projectid>)](https://modrinth.com/mod/<projectid>)
+[![Supported versions](https://modrinth-shields.imgalvin.me/badge/versions/<projectid>)](https://modrinth.com/mod/<projectid>)
 ```
 
 Like this:
 
-[![Supported versions](https://modrinth-shields.imgalvin.me/badge/restrictedflying)](https://modrinth.com/mod/restrictedflying)
+[![Supported versions](https://modrinth-shields.imgalvin.me/badge/versions/restrictedflying)](https://modrinth.com/mod/restrictedflying)
 
 # Docs
 
